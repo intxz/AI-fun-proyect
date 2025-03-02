@@ -6,4 +6,5 @@ def jump():
 
 # Test jumping
 time.sleep(2)  # Wait before starting
-jump()
+while True:
+    jump()
