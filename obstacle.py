@@ -15,3 +15,7 @@ def process_image(img):
             break  # Only consider the nearest obstacle
 
     return obstacle_distance, obstacle_height
+
+od, oh = process_image("pruebadino.PNG")
+print(od)
+print(oh)
