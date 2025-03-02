@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 # Define screen capture area (adjust as needed)
-capture_area = {"top": 300, "left": 400, "width": 600, "height": 200}
+capture_area = {"top": 200, "left": 580, "width": 760, "height": 200}
 
 def grab_screen():
     with mss.mss() as sct:
